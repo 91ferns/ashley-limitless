@@ -1,0 +1,250 @@
+/*
+Theme Name: ashley
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ashley
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ashley is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import '_';
+
+body {
+	font-size: 18px;
+}
+
+p {
+	margin: 1em 0;
+	big {
+		font-size: 26px;
+		line-height: 30px;
+	}
+}
+
+@mixin cover-me {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@mixin contain-me {
+	background-position: center top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+header .header-wrapper {
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 2;
+	background-size: contain;
+	background-position: top;
+	background-image: image-url('header.png');
+	padding-top: 20px;
+	height: 877px;
+}
+
+.site-title {
+	margin: 0;
+}
+
+body {
+	background-color: #adadad;
+}
+
+#page {
+	background-color: white;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.outer-pad {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.inner-pad {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header-pad {
+	padding-top: 25px;
+}
+
+.two-thirds {
+	width: 66.6666%;
+}
+
+.half {
+	width: 50%;
+}
+
+.margin-half {
+	margin-left: 50%;
+}
+
+.margin-one-third {
+	margin-left: 33.3333%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.concrete {
+	position: relative;
+	top: -25px;
+	z-index: 1;
+	@include cover-me;
+	background-image: image-url('concrete.png');
+	padding-bottom: 25px;
+	margin-bottom: -25px;
+}
+
+.concrete-bg {
+	@include cover-me;
+	background-image: image-url('concrete.png');
+}
+
+.site-introduction {
+	font-size: 22px;
+
+	p {
+		margin: 10px 0;
+	}
+}
+
+.background-image  {
+	@include contain-me;
+}
+
+.boxy {
+	margin-top: 13px;
+	margin-bottom: 13px;
+	padding: 13px 6px;
+	background: rgba(255, 255, 255, 0.65);
+	color: black;
+	font-size: 17px;
+
+	p {
+		margin: 25px 0;
+	}
+
+	p:first-child {
+		margin-top: 0;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	ul {
+		margin-left: 0px;
+		padding-left: 25px;
+
+		> li {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+section {
+	position: relative;
+	top: -25px;
+	z-index: 1;
+//	margin-bottom: -25px;
+	padding: 40px 0;
+	@include contain-me;
+
+	&.bg-left {
+		background-position: left 140px;
+		background-size: auto;
+
+	}
+
+	&.bg-right {
+		background-position: right 70px;
+		background-size: auto;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+h2, h3 {
+	font-size: 60px;
+	color: #1e2749;
+	margin: 5px 0;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 46px;
+}
+
+.btn {
+
+	display: inline-block;
+		
+	text-decoration: none;
+
+	border-width: 8px;
+	border-style: solid;
+	border-radius: 3px;
+
+	font-size: 35px;
+	letter-spacing: -1px;
+	
+	padding: 0px 48px;
+
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+
+	&.btn-blue {
+		background-color: #1e2749;
+		color: white;
+		border-color: #ffd429;
+	}
+}
+
+.testimonial {
+	padding: 10px;
+	background-color: #e4d9ff;
+	color: #1e2749;
+	font-size: 20px;
+	line-height: 25px;
+	border: 2px solid #1e2749;
+
+	p:first-child {
+		margin-top: 0px;
+	}
+
+	.thumbnail, img {
+		float: right;
+		margin-right: 20px;
+		margin-left: 16px;
+	}
+}
