@@ -143,10 +143,19 @@ body {
 .boxy {
 	margin-top: 13px;
 	margin-bottom: 13px;
-	padding: 13px 6px;
+	padding: 13px 10px;
 	background: rgba(255, 255, 255, 0.65);
 	color: black;
 	font-size: 17px;
+
+	&.boxy-different {
+		border: 3px solid #03c8a2;
+		background: transparent;
+
+		li {
+			margin-bottom: 0px;
+		}
+	}
 
 	p {
 		margin: 25px 0;
@@ -160,7 +169,18 @@ body {
 		margin-bottom: 0;
 	}
 
-	ul {
+	ul, ol {
+		margin-left: 0px;
+		padding-left: 25px;
+
+		> li {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.content {
+	ul, ol {
 		margin-left: 0px;
 		padding-left: 25px;
 
@@ -181,11 +201,20 @@ section {
 	&.bg-left {
 		background-position: left 140px;
 		background-size: auto;
+	}
 
+	&.bg-top-left {
+		background-position: left top;
+		background-size: auto;
 	}
 
 	&.bg-right {
 		background-position: right 70px;
+		background-size: auto;
+	}
+
+	&.bg-bottom-left {
+		background-position: left bottom;
 		background-size: auto;
 	}
 }
@@ -194,7 +223,7 @@ section {
 	text-align: center;
 }
 
-h2, h3 {
+h2, h3, h4 {
 	font-size: 60px;
 	color: #1e2749;
 	margin: 5px 0;
@@ -204,6 +233,12 @@ h2, h3 {
 
 h3 {
 	font-size: 46px;
+}
+
+h4 {
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 12px;
 }
 
 .btn {
@@ -247,4 +282,80 @@ h3 {
 		margin-right: 20px;
 		margin-left: 16px;
 	}
+}
+
+hr {
+	height: 5px;
+	border: 0px;
+	margin: 0 auto;
+	width: 556px;
+	margin: 0 auto;
+	background-image: image-url('hr.png');
+	background-repeat: no-repeat;
+}
+
+.module-wrapper {
+
+	.module-title {
+		text-align: center;
+		padding-bottom: 26px;
+
+		p, h5 {
+			margin: 0;
+		}
+
+		h5 {
+			color: #03c8a2;
+			font-size: 26px;
+			font-style: italic;
+			font-weight: 300;
+			margin-top: -10px;
+		}
+	}
+
+	&.concrete {
+		h5 {
+			color: #1e2749;
+		}
+	}
+
+	.module-content {
+		@extend .clear;
+		font-size: 17px;
+		li {
+			margin: 0;
+		}
+	}
+
+	.module-text {
+		width: 560px;
+	}
+
+	.module-thumbnail {
+		width: 465px;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&.thumb-left {
+		.module-thumbnail {
+			float: left;
+		}
+
+		.module-text {
+			float: right;
+		}
+	}
+
+	&.thumb-right {
+		.module-thumbnail {
+			float: right;
+		}
+
+		.module-text {
+			float: left;
+		}
+	}
+
 }
