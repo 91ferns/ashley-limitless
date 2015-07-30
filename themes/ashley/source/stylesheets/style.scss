@@ -21,6 +21,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 @import '_';
+@import '_jquery-ui';
 
 body {
 	font-size: 18px;
@@ -148,13 +149,22 @@ body {
 	color: black;
 	font-size: 17px;
 
-	&.boxy-different {
+	&.boxy-different, &.boxy-different-2 {
 		border: 3px solid #03c8a2;
 		background: transparent;
 
 		li {
 			margin-bottom: 0px;
 		}
+	}
+
+	&.boxy-different-2 {
+		border: 6px solid #ffd429;
+		background-color: #1e2749;
+		color: white;
+		border-radius: 3px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 
 	p {
@@ -282,6 +292,8 @@ h4 {
 		margin-right: 20px;
 		margin-left: 16px;
 	}
+
+	margin-bottom: 20px;
 }
 
 hr {
@@ -366,4 +378,8 @@ hr {
 		text-align: right;
 		padding: 0 30px 10px;
 	}
+}
+
+.content.white {
+	color: white;
 }
