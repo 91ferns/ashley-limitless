@@ -62,6 +62,12 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
 @import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 
 
+@import 'fonts/feltthat/stylesheet.css';
+
+%felthat {
+  font-family: 'felt_thatregular';
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -120,6 +126,11 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
   color: $brand-primary !important;
 }
 
+big.ashley {
+  font-size: 80px;
+  @extend %felthat;
+}
+
 .site-title {
   text-align: center;
   margin-top: 25px;
@@ -159,7 +170,7 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
     height: 90px;
     line-height: 90px;
     font-size: 24px;
-    
+
     margin-top: 105px;
 
     color: white;
@@ -168,16 +179,175 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
     .description {
       width: 275px; // 530 left
       float: left;
+      text-align: center;
     }
 
     .video-subcontainer {
       width: 530px;
       float: left;
+      height: 90px;
+
+      position: relative;
+
+      figure {
+        position: absolute;
+        top: -95px;
+      }
     }
 
   }
 }
 
+.half-wrapper {
+  width: 54%;
+  padding-left: 30px;
+}
+
+#site-navigation {
+  background-color: black;
+  color: white;
+
+  ul > li {
+
+    > a {
+      background: transparent !important;
+      color: white;
+      text-transform: uppercase;
+      &:hover {
+        color: $brand-primary;
+      }
+    }
+  }
+}
+
+//
+
+ul.elipsis {
+  padding-left: 10px;
+  margin-left: 0px;
+  > li {
+    list-style-type: none;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 20px;
+    &:before {
+      content: '…';
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+  }
+}
+
+$default-font: 20px;
+
+#introduction {
+  padding-top: 104px;
+  padding-bottom: 20px;
+
+  font-size: $default-font;
+
+  background-image: url('img/ashley-intro.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
 .container {
-  max-width: 1080px;
+  max-width: 1110px;
+}
+
+.box-section {
+  background-image: url('img/bg-triangles.png');
+
+  .sub-banner {
+    background: white;
+    font-size: $default-font;
+    line-height: 1.3em;
+
+    big {
+      line-height: 1em;
+    }
+
+    .content {
+      padding: 22px 25px;
+    }
+
+    .thumbnail {
+      float: right;
+    }
+  }
+
+}
+
+.box-wrapper {
+  padding: 25px 100px 50px;
+
+  .box {
+    border: 9px solid #f2de71;
+    background: white;
+    color: black;
+
+    .box-inner {
+      border: 4px solid black;
+      padding: $default-font 14px 40px;
+    }
+
+    h2 {
+      @extend %felthat;
+      color: $brand-primary;
+      font-size: 60px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto 31px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+
+  }
+
+}
+
+.thumbnail {
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.list-section {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background: #8ad6d7;
+  font-size: $default-font;
+  ul {
+    margin: 0px;
+    margin-top: 25px;
+    padding-left: 28px;
+    > li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+h4 {
+  font-size: $default-font;
+  font-weight: bold;
+}
+
+.blocktitle {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+.testimonial-section {
+  background-image: url('img/bg-feathers.png');
+  .testimonial-inner {
+    padding: 25px 90px;
+  }
 }

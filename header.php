@@ -24,7 +24,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ashley_limitless' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header clearfix" role="banner">
 		<div class="top-banner">
 			AWARD-WINNING CAREER COACH <span class="ashley">ASHLEY STAHL</span> PRESENTS
 		</div>
@@ -48,26 +48,53 @@
 				<div class="container">
 
 					<div class="description">
-
+						<img src="<?php ashley_limitless_image('as-seen-in-left.png'); ?>">
 					</div> <!-- /.description -->
 
 					<div class="video-subcontainer">
-
+						<figure>
+							<img src="<?php ashley_limitless_image('video.png'); ?>">
+						</figure>
 					</div> <!-- /.video-container -->
 
 					<div class="description">
-
+						<img src="<?php ashley_limitless_image('as-seen-in-right.png'); ?>">
 					</div> <!-- /.description -->
 
 				</div>
 
-			</div>
+			</div> <!-- /.banner -->
+
+		</div> <!-- /.video-container -->
+
+		<div id="introduction">
+
+			<div class="container">
+
+				<div class="half-wrapper">
+					<p>There’s nothing worse than…</p>
+
+					<ul class="elipsis">
+						<li>pouring your heart and soul into a job application – and getting crickets in reply. </li>
+
+						<li>feeling stuck in networking conversations – knowing the untapped resources that you could use if only you knew HOW.</li>
+
+						<li>losing hope that you’ll ever land that dream job – or make the income you deserve.</li>
+
+					</ul>
+
+					<p class="ashley">If you’ve struggled with these challenges, you’re not alone.</p>
+
+				</div>
+
+			</div> <!-- /.container -->
 
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ashley_limitless' ); ?></button>
-			<?php ashley_limitless_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<div class="container">
+				<?php ashley_limitless_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

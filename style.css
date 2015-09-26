@@ -52,6 +52,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  */
 /* FONT PATH
  * -------------------------- */
+@import url(fonts/feltthat/stylesheet.css);
 @font-face {
   font-family: 'FontAwesome';
   src: url("bower_components/fontawesome/fonts/fontawesome-webfont.eot?v=4.4.0");
@@ -8080,6 +8081,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+big.ashley, .box-wrapper .box h2 {
+  font-family: 'felt_thatregular'; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -8531,6 +8535,9 @@ object {
 .ashley {
   color: #16aeb0 !important; }
 
+big.ashley {
+  font-size: 80px; }
+
 .site-title {
   text-align: center;
   margin-top: 25px;
@@ -8567,10 +8574,117 @@ object {
     color: white; }
     .video-container .banner .description {
       width: 275px;
-      float: left; }
+      float: left;
+      text-align: center; }
     .video-container .banner .video-subcontainer {
       width: 530px;
-      float: left; }
+      float: left;
+      height: 90px;
+      position: relative; }
+      .video-container .banner .video-subcontainer figure {
+        position: absolute;
+        top: -95px; }
+
+.half-wrapper {
+  width: 54%;
+  padding-left: 30px; }
+
+#site-navigation {
+  background-color: black;
+  color: white; }
+  #site-navigation ul > li > a {
+    background: transparent !important;
+    color: white;
+    text-transform: uppercase; }
+    #site-navigation ul > li > a:hover {
+      color: #16aeb0; }
+
+ul.elipsis {
+  padding-left: 10px;
+  margin-left: 0px; }
+  ul.elipsis > li {
+    list-style-type: none;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 20px; }
+    ul.elipsis > li:before {
+      content: '…';
+      position: absolute;
+      left: 0px;
+      top: 0px; }
+
+#introduction {
+  padding-top: 104px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background-image: url("img/ashley-intro.png");
+  background-repeat: no-repeat;
+  background-position: right bottom; }
 
 .container {
-  max-width: 1080px; }
+  max-width: 1110px; }
+
+.box-section {
+  background-image: url("img/bg-triangles.png"); }
+  .box-section .sub-banner {
+    background: white;
+    font-size: 20px;
+    line-height: 1.3em; }
+    .box-section .sub-banner big {
+      line-height: 1em; }
+    .box-section .sub-banner .content {
+      padding: 22px 25px; }
+    .box-section .sub-banner .thumbnail {
+      float: right; }
+
+.box-wrapper {
+  padding: 25px 100px 50px; }
+  .box-wrapper .box {
+    border: 9px solid #f2de71;
+    background: white;
+    color: black; }
+    .box-wrapper .box .box-inner {
+      border: 4px solid black;
+      padding: 20px 14px 40px; }
+    .box-wrapper .box h2 {
+      color: #16aeb0;
+      font-size: 60px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto 31px; }
+    .box-wrapper .box p {
+      font-size: 20px;
+      margin-bottom: 24px; }
+
+.thumbnail {
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 0px; }
+
+.list-section {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background: #8ad6d7;
+  font-size: 20px; }
+  .list-section ul {
+    margin: 0px;
+    margin-top: 25px;
+    padding-left: 28px; }
+    .list-section ul > li {
+      margin-bottom: 20px; }
+
+h4 {
+  font-size: 20px;
+  font-weight: bold; }
+
+.blocktitle {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.testimonial-section {
+  background-image: url("img/bg-feathers.png"); }
+  .testimonial-section .testimonial-inner {
+    padding: 25px 90px; }
