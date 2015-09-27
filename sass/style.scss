@@ -68,6 +68,10 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
   font-family: 'felt_thatregular';
 }
 
+.felthat {
+  font-family: 'felt_thatregular';
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -349,5 +353,85 @@ h4 {
   background-image: url('img/bg-feathers.png');
   .testimonial-inner {
     padding: 25px 90px;
+  }
+
+  .box {
+    margin-top: 60px;
+
+    border: 4px solid #f2de71;
+    padding: 15px 26px;
+    font-size: 20px;
+    p {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+
+    .author {
+      width: 260px;
+      float: right;
+      padding-right: 80px;
+      big {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.ashley-section {
+  .inner-ashley {
+    width: 600px;
+    padding-top: 30px;
+  }
+  font-size: $default-font;
+  big.ashley {
+    font-size: 70px;
+    line-height: 40px;
+  }
+  .lead {
+    font-size: $default-font * 1.5;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+}
+
+.with-ashley {
+  background-image: url('img/ashley-side.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.program-description-section {
+  background-image: url('img/bg-heringbone.png');
+  background-repeat: repeat-x;
+  padding: 20px 0;
+
+  .program-description-inner {
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  font-size: $default-font;
+
+  ul, ol {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  h4 {
+    font-size: 35px;
+    line-height: 39px;
+    margin-top: 15px;
+  }
+
+  .lead {
+    font-size: 27px;
+    font-weight: bold;
   }
 }

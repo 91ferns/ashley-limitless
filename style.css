@@ -8084,6 +8084,9 @@ button.close {
 big.ashley, .box-wrapper .box h2 {
   font-family: 'felt_thatregular'; }
 
+.felthat {
+  font-family: 'felt_thatregular'; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -8688,3 +8691,59 @@ h4 {
   background-image: url("img/bg-feathers.png"); }
   .testimonial-section .testimonial-inner {
     padding: 25px 90px; }
+  .testimonial-section .box {
+    margin-top: 60px;
+    border: 4px solid #f2de71;
+    padding: 15px 26px;
+    font-size: 20px; }
+    .testimonial-section .box p {
+      margin-top: 20px;
+      margin-bottom: 0px; }
+    .testimonial-section .box .author {
+      width: 260px;
+      float: right;
+      padding-right: 80px; }
+      .testimonial-section .box .author big {
+        font-size: 40px; }
+
+.ashley-section {
+  font-size: 20px; }
+  .ashley-section .inner-ashley {
+    width: 600px;
+    padding-top: 30px; }
+  .ashley-section big.ashley {
+    font-size: 70px;
+    line-height: 40px; }
+  .ashley-section .lead {
+    font-size: 30px; }
+  .ashley-section p {
+    margin-bottom: 20px; }
+
+.with-ashley {
+  background-image: url("img/ashley-side.png");
+  background-repeat: no-repeat;
+  background-position: right bottom; }
+
+.program-description-section {
+  background-image: url("img/bg-heringbone.png");
+  background-repeat: repeat-x;
+  padding: 20px 0;
+  font-size: 20px; }
+  .program-description-section .program-description-inner {
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 32px;
+    padding-bottom: 32px; }
+  .program-description-section ul, .program-description-section ol {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .program-description-section h4 {
+    font-size: 35px;
+    line-height: 39px;
+    margin-top: 15px; }
+  .program-description-section .lead {
+    font-size: 27px;
+    font-weight: bold; }
