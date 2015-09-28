@@ -8747,3 +8747,114 @@ h4 {
   .program-description-section .lead {
     font-size: 27px;
     font-weight: bold; }
+
+.story-section {
+  background-color: #16aeb0;
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px; }
+  .story-section .container {
+    background-image: url("img/ashley-story.png");
+    background-repeat: no-repeat;
+    background-position: left 50px; }
+  .story-section h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto; }
+  .story-section h3 {
+    font-size: 70px; }
+  .story-section .content {
+    padding-left: 40%;
+    padding-right: 10%; }
+
+.content-section.shine-on {
+  background-image: url("img/bg-triangle-fade.png");
+  background-position: right top;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.content-section.pattern {
+  background-image: url("img/bg-diamonds.png"); }
+
+.content-section .content {
+  padding: 30px 40px;
+  font-size: 20px; }
+
+.content-section p, .content-section img.aligncenter {
+  margin-bottom: 26px; }
+
+.content-section p:last-child {
+  margin-bottom: 0px; }
+
+.content-section p img.aligncenter {
+  margin-bottom: 0px; }
+
+.content-section h2.felthat {
+  font-size: 70px;
+  line-height: 64px;
+  margin-bottom: 12px; }
+
+.content-section h2:first-child {
+  margin-top: 0px; }
+
+.content-section h2.text-center {
+  margin-bottom: 22px; }
+
+.content-section .lead {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -1px; }
+
+.content-section img.aligncenter {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.content-section ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px; }
+  .content-section ul li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 30px;
+    margin-bottom: 20px; }
+    .content-section ul li:before {
+      position: absolute;
+      left: 0px;
+      top: 4px;
+      content: url("img/bullet.png"); }
+
+.content-section.custom {
+  background-image: url("img/ashley-whats-changed.png");
+  background-position: left bottom;
+  background-repeat: no-repeat; }
+  .content-section.custom .content {
+    padding-left: 30%; }
+
+.content-section.zebra {
+  background-image: url("img/bg-faded-herringbone.png");
+  background-repeat: repeat-y; }
+
+section {
+  font-size: 20px; }
+
+.breakthrough-section {
+  background-image: url("img/ashley-dress.png");
+  background-position: right bottom;
+  background-repeat: no-repeat; }
+  .breakthrough-section .breakthrough-inner {
+    width: 70%;
+    padding-left: 65px; }
+    .breakthrough-section .breakthrough-inner h2:first-child {
+      font-size: 40px;
+      text-align: center;
+      font-weight: 300; }
+    .breakthrough-section .breakthrough-inner h2:last-child {
+      font-size: 30px; }
+      .breakthrough-section .breakthrough-inner h2:last-child .felthat {
+        font-size: 70px;
+        line-height: 63px; }

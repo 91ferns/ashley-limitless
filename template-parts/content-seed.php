@@ -203,3 +203,208 @@
     </div>
   </div> <!-- /.container -->
 </section>
+
+<section class="story-section">
+
+  <div class="container">
+
+    <h2>FROM UNDERPAID ADMIN ASSISTANT TO MULTIPLE JOB OFFERS IN 6 WEEKS</h2>
+
+    <div class="content">
+
+      <h3 class="felthat">(My Story)</h3>
+
+      <p>I remember it like it was yesterday…</p>
+
+      <p>After years of preparation for my dream job in counter-terrorism – which included mastering TWO foreign languages and earning my master’s degree at one of the top 20 educational institutions in the world – I returned home to Los Angeles and began searching for employment.</p>
+
+      <p><strong>And landed… a dead-end admin position. How could this happen??</strong></p>
+
+      <p>I had done everything “right.” </p>
+
+      <p>How was it that I couldn’t even manage to get a job in my desired industry – let alone something that reflected the level of education and experience I’d spent years working so hard for? Every day in my first job was spent ordering cupcakes for office parties and processing travel expenses for executives’ exciting business trips to locations I never thought I’d get to see.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section shine-on">
+
+  <div class="container">
+
+    <div class="content">
+
+      <p class="lead">I was in such FEAR that I would never live my purpose – or be the woman I truly wanted to be – that I could hardly even hear the persistent whisper in the back of my head telling me I was meant for more…</p>
+
+      <p>I let that cubicle drag me to the depths of despair because I didn’t know HOW or IF I could actually find something better.</p>
+
+      <p>Most of all, I was scared it just wouldn’t happen for me. I felt hopeless.</p>
+
+      <h2 class="felthat">Fast forward a few years ...</h2>
+
+      <p>Since that day, I have managed a high-level program for the Pentagon (yes, I did go on to land that “dream job” … (more on that shortly), I have spoken on stages such as TEDxBerkeley, and I have been featured in dozens of publications and TV programs, including:</p>
+
+      <p><img class="aligncenter" alt="Forbes and more" src="<?php ashley_limitless_image('content-portfolio.png'); ?>"></p>
+
+      <p>I’ve helped hundreds of 20 and 30somethings men and women around the country <strong>land their dream jobs</strong> (even in cities or countries they’ve never visited before!), <strong>negotiate salary bumps</strong>, and <strong>make career changes</strong> that are in alignment with who they really are. </p>
+
+      <p>Best of all, I LOVE what I do. </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section custom">
+
+  <div class="container">
+
+    <h2 class="felthat text-center">So what changed?</h2>
+
+    <div class="content">
+
+      <p>How did I go from feeling stuck in a dead-end job with no opportunities in sight, to working as one of the youngest management professionals for the Pentagon, to passionate career coach and entrepreneur in just a few short years?</p>
+
+      <p><strong>It all began with a choice.</strong></p>
+
+      <p>After months of feeling miserable and going through more pints of Ben & Jerry’s than I care to admit, I finally decided to do whatever it took to make a change. </p>
+
+      <p>I quit my dead-end job in LA and moved to Washington, D.C. (with zero job prospects and zero professional contacts). </p>
+
+      <p>In the span of 6 weeks, I went to 90 events, had coffee with 200 people, and landed 3 job offers.  </p>
+
+      <p><strong>I accepted my dream job at the Pentagon, which meant thatI went from an executive assistant to executive… All in one job-hunt.</strong></p>
+
+      <p><strong>Not to mention, I tripled my salary.</strong></p>
+
+      <p>I thought I was set for life. </p>
+
+      <p><strong>Finally, all my hard work had paid off.</strong></p>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section pattern">
+
+  <div class="container">
+
+    <div class="content">
+
+      <h2 class="felthat">Something was still missing ...</h2>
+
+      <p>I didn’t want to admit it to myself, but after the initial glow of my new salary and sparkly D.C. life began to fade, it slowly dawned on me that the dream I had pursued for so long <strong>might not be the best fit for me after all.</strong></p>
+
+      <p>At first, it was the pervasive culture of paternalism and sexism that got under my skin – but getting hit on by my much-older coworkers was a manageable annoyance.</p>
+
+      <p>It was my unexpected fear of bloodshed that soon became the bigger problem.</p>
+
+      <p>How was I going to be a spy, if I couldn’t even hold a gun?!</p>
+
+      <p>This sent me into a tailspin...</p>
+
+      <p><strong>I remember feeling like my <u>career</u>, my <u>passion</u> and my <u>identity</u> were all in conflict with one another.</strong></p>
+
+      <p>More than anything, I felt completely alone. </p>
+
+      <p>Turns out, I wasn’t alone at all. In fact…</p>
+
+      <p>75% of the U.S. population is hiding some part of their identity at work (Reuters). </p>
+
+      <p>I tried to stick it out. </p>
+
+      <h2 class="felthat">It got to the point where every day in my job felt like a <span class="ashley">waste of time.</span></h2>
+
+      <ul>
+        <li>I was scared and hopeless that I would never find my purpose in the workforce. </li>
+
+        <li>I worried that I would spend my entire life counting down to Fridays, never finding a career that 						energized and excited me. </li>
+
+        <li>I was overwhelmed and upset by the idea of letting life happen to me, just taking jobs just because I 						“should take what I can get,” 	or because I didn’t really know what I wanted.</li>
+
+        <li>I knew deep down inside that I was just holding onto my “plan” for the sake of having one.</li>
+      </ul>
+
+      <p>I tried talking to friends about my predicament, but somehow the conversation always turned back to them and their careers. </p>
+
+      <p><strong>Everyone, it seemed, was experiencing a crisis of their own</strong> – and they wanted to know how I’d managed to triple my income, land so many interviews, and become so efficient at networking. </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="breakthrough-section">
+
+  <div class="container">
+
+    <div class="breakthrough-inner">
+      <h2>I DIDN’T KNOW IT AT THE TIME, BUT<br>MY NEW PATH AS A CAREER<br>COACH HAD JUST BEGUN.</h2>
+
+      <p>Pretty soon, my friends were asking if they could bring their friends along to our coffee dates or weekend brunches.</p>
+
+      <p>Instead of talking about bad dates or annoying roommates, we would map out how they were going to find their purpose, make a career pivot, network their way into job interviews, land more job offers, and negotiate a new salary. </p>
+
+      <p>I’ll never forget the day I arrived at Starbucks to meet a friend, and she was accompanied by no less than eight of her friends – all of them crammed around a tiny table.</p>
+
+      <p>“They heard you help people get results,” she said, by way of explanation.</p>
+
+      <p><strong>It seemed ironic that I was helping others live their purpose<br>when I was still so unclear on mine…</strong></p>
+
+      <h2>
+        <span class="felthat">
+          Then came the <span class="ashley">“breakthrough”</span>
+        </span><br>
+        (which looked a lot like a breakdown at the time)
+      </h2>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section zebra">
+
+  <div class="container">
+
+    <div class="content">
+
+      <p>I faced the music, and I quit my job in D.C. Next, I moved home to L.A. The fear and uncertainty I’d been dodging for so long caught up with me, and I felt like a complete failure.</p>
+
+      <p>After spending way too many nights up late researching career options, I knew I needed to take <u>massive action</u>, so I borrowed money to hire a life coach who empowered me to move forward.</p>
+
+      <p><strong>It was a life-changing decision.</strong></p>
+
+      <p>She helped me overcome the emotional hangover I felt from realizing that my dream job wasn’t so dreamy. More importantly, she helped me recover the confidence and clarity I’d lost along the way.</p>
+
+      <p>“What lights you up?” she asked me.</p>
+
+      <p>I reflected on the weeks in DC I spent as a job hunting and job-hopping master, and realized that it was the thrill of the hunt – not the job itself – that lit me up and made me come alive. </p>
+
+      <p>I truly loved job hunting and helping people find their purpose… </p>
+
+      <p>(And I always had a knack for it.)</p>
+
+      <p>I loved networking, rebranding my resume, negotiating for my salaries, and helping other people find their purpose and dream jobs. </p>
+
+      <p>Most of all, I loved feeling like I had job security. I became so great at networking that I realized I’d never worry about my career again—I was always an email away from another job offer. </p>
+
+      <p><strong>When I realized this, I finally had the power to eliminate the doubts that held me back so that I could step into my true purpose (helping YOU embrace yours).</strong></p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-product-announcement">
+  logo-limitless-career-lab.png
+</section>

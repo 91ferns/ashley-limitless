@@ -435,3 +435,156 @@ h4 {
     font-weight: bold;
   }
 }
+
+.story-section {
+  background-color: #16aeb0;
+
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .container {
+    background-image: url('img/ashley-story.png');
+    background-repeat: no-repeat;
+    background-position: left 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    text-align: center;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3 {
+    font-size: 70px;
+  }
+
+  .content {
+    padding-left: 40%;
+    padding-right: 10%;
+  }
+}
+
+.content-section {
+
+  &.shine-on {
+    background-image: url('img/bg-triangle-fade.png');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &.pattern {
+    background-image: url('img/bg-diamonds.png');
+  }
+
+  .content {
+    padding: 30px 40px;
+    font-size: $default-font;
+  }
+
+  p, img.aligncenter {
+    margin-bottom: 26px;
+  }
+
+  p:last-child {
+    margin-bottom: 0px;
+  }
+
+  p img.aligncenter {
+    margin-bottom: 0px;
+  }
+
+  h2.felthat {
+    font-size: 70px;
+    line-height: 64px;
+    margin-bottom: 12px;
+  }
+
+  h2:first-child {
+    margin-top: 0px;
+  }
+
+  h2.text-center {
+    margin-bottom: 22px;
+  }
+
+  .lead {
+    font-size: $default-font * 1.5;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -1px;
+  }
+
+  img.aligncenter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    li {
+      position: relative;
+      list-style-type: none;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      &:before {
+        position: absolute;
+        left: 0px;
+        top: 4px;
+        content: url('img/bullet.png');
+      }
+    }
+  }
+
+  &.custom {
+    background-image: url('img/ashley-whats-changed.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+    .content {
+      padding-left: 30%;
+
+    }
+  }
+
+  &.zebra {
+    background-image: url('img/bg-faded-herringbone.png');
+    background-repeat: repeat-y;
+
+  }
+}
+
+section {
+  font-size: $default-font;
+}
+
+.breakthrough-section {
+  background-image: url('img/ashley-dress.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+
+  .breakthrough-inner {
+    width: 70%;
+    padding-left: 65px;
+
+    h2:first-child {
+      font-size: $default-font * 2;
+      text-align: center;
+      font-weight: 300;
+    }
+
+    h2:last-child {
+      font-size: 30px;
+      .felthat {
+        font-size: 70px;
+        line-height: 63px;
+      }
+    }
+  }
+}
