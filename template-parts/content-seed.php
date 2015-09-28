@@ -502,3 +502,98 @@
     </div>
   </div> <!-- /.container -->
 </section>
+
+<section class="story-section sitting">
+
+  <div class="container">
+
+    <div class="content">
+
+      <h2 class="felthat">It’s Time To Say “Yes” To The <u>Career</u> &amp; <u>Life</u> You Deserve…</h2>
+
+      <p>77% of retired Americans said they regret “some element” of their career and 33% of retired Americans regret their entire career altogether. </p>
+
+      <p><strong>It’s fair to say most people aren’t happy.</strong></p>
+
+      <p>Ironically, we often listen to “most people”—friends, family and colleagues – in our career decisions. This translates into mediocre jobs that aren’t in alignment with our gifts and desires.   </p>
+
+      <p>I want something different for you…</p>
+
+      <p class="lead">You deserve to look back and say, “I did this.” And to feel proud of what you contributed.</p>
+
+    </div>
+
+    <div class="content no-bg">
+      <p>Whether you are a student or recent grad looking to ace the job hunt, or an experienced professional who desires ajob/career change, Limitless Career Lab will give you the lasting tools and support you need.</p>
+
+      <p>John Assaraf famously said, “When you’re interested, you’ll do what’s convenient. When you’re committed, you’ll do whatever it takes.”</p>
+
+      <p>Put simply, highly successful people are willing to do what others aren’t. And you deserve to embody the unique brilliance that you are.</p>
+
+      <p>I’m here to help you discover the answer to that question, and make your dream career a reality in 8 weeks or less. </p>
+
+      <p><strong><a href="#">Click here to get started NOW.</a></p>
+
+      <p>To your success,</p>
+
+      <p style="padding-left: 20px;"><img src="<?php ashley_limitless_image('ashley-signature.png'); ?>" alt="Ashley Stahl">
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="box-section zebra">
+  <div class="container">
+    <div class="box-wrapper">
+
+      <div class="box">
+        <div class="box-inner">
+          <h2><big>LOVE</big> IT OR YOUR MONEY BACK<br>30-DAY GUARANTEE!</h2>
+
+          <p>I have spent years creating and perfecting the curriculum for Limitless Career Lab, through my own experience, research and working with hundreds of people as a career coach. As long as you are committed (and do the work), this program will absolutely help you get results… Which is why I happily offer a 30-day money-back guarantee. No questions asked! I know you won’t need or want it, but it’s there for your peace of mind. </p>
+        </div>
+      </div>
+
+    </div> <!-- /.box-wrapper -->
+
+  </div> <!-- /.container -->
+
+  <p style="margin: 0px;">&nbsp;</p>
+
+</section> <!-- /.box-section -->
+
+<section class="faq-section">
+
+  <div class="container">
+
+    <div class="faq-inner">
+      <h2>Frequently Asked Questions</h2>
+
+      <ul class="accordion">
+        <li class="open">
+          <span>When does the program begin?</span>
+          <p>As soon as you sign up! Limitless Career Lab is a home study course, designed in such a way that you can join at any time! However, be sure to take advantage of our fast-action bonuses (available for a limited time only). Click here to get started. </p>
+
+        </li>
+        <li><span>What does it look like to go through this program on a weekly basis? </span></li>
+        <li><span>Do I need to supplement what I learn in this program with anything else?</span></li>
+        <li><span>How do the Q&amp;A calls work?</span></li>
+        <li><span>Do you offer payment plans?</span></li>
+        <li><span>Can I keep in touch with you (and other participants) after the program ends?</span></li>
+        <li><span>What if I don’t like the product?</span></li>
+        <li><span>How do I know if this the right time for me to take the course?</span></li>
+        <li><span>Do I need to invest in the full course, or can I just purchase certain modules?</span></li>
+        <li><span>Should I be hiring a private coach instead of investing in this course?</span></li>
+        <li><span>I'm not a millennial. Is there a reason I should not take this course?</span></li>
+      </ul>
+
+      <center>
+        <a href="btn-center"><img src="<?php ashley_limitless_image('button-sign-up.png'); ?>" alt="Sign Up"></a>
+      </center>
+    </div> <!-- /.faq-inner -->
+
+  </div>
+
+</section>

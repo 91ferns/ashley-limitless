@@ -8081,11 +8081,14 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-big.ashley, .box-wrapper .box h2, .module .module-extended h3 {
+big.ashley, .box-wrapper .box h2, .module .module-extended h3, .faq-section h2 {
   font-family: 'felt_thatregular'; }
 
 .felthat {
   font-family: 'felt_thatregular'; }
+
+.box-section.zebra .box .box-inner h2 {
+  font-family: 'Lato', arial, helvetica, sans-serif; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -8535,7 +8538,7 @@ object {
 #page {
   padding-top: 76px; }
 
-.ashley {
+.ashley, .faq-section h2 {
   color: #16aeb0 !important; }
 
 big.ashley {
@@ -8659,6 +8662,31 @@ ul.elipsis {
       font-size: 20px;
       margin-bottom: 24px; }
 
+.box-section.zebra {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-image: url("img/bg-heringbone-medium.png");
+  background-size: contain;
+  background-position: center; }
+  .box-section.zebra .box-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .box-section.zebra .box .box-inner {
+    border: 0px; }
+    .box-section.zebra .box .box-inner h2 {
+      width: 96%;
+      color: black;
+      font-size: 45px; }
+      .box-section.zebra .box .box-inner h2 big {
+        font-size: 70px; }
+    .box-section.zebra .box .box-inner p {
+      max-width: 90%;
+      margin-left: 5%;
+      text-align: center; }
+  .box-section.zebra .box {
+    background: transparent;
+    border-color: #16aeb0; }
+
 .thumbnail {
   border: 0px;
   padding: 0px;
@@ -8688,7 +8716,9 @@ h4 {
   text-align: center; }
 
 .testimonial-section {
-  background-image: url("img/bg-feathers.png"); }
+  background-image: url("img/bg-feathers.png");
+  background-position: center;
+  background-size: cover; }
   .testimonial-section .testimonial-inner {
     padding: 25px 90px; }
   .testimonial-section .box {
@@ -8769,6 +8799,29 @@ h4 {
   .story-section .content {
     padding-left: 40%;
     padding-right: 10%; }
+  .story-section.sitting {
+    color: white;
+    background-image: url("img/ashley-sitting.png");
+    background-position: left 30px;
+    background-repeat: no-repeat; }
+    .story-section.sitting h2 {
+      line-height: 66px;
+      font-size: 60px;
+      margin-bottom: 45px; }
+    .story-section.sitting a {
+      color: white; }
+    .story-section.sitting p {
+      margin-bottom: 26px;
+      font-weight: 300; }
+    .story-section.sitting p.lead {
+      font-size: 30px;
+      margin-bottom: 35px; }
+    .story-section.sitting .content {
+      padding-left: 35%; }
+    .story-section.sitting .no-bg {
+      padding-left: 5%; }
+    .story-section.sitting .container {
+      background-image: none; }
 
 .content-section.shine-on {
   background-image: url("img/bg-triangle-fade.png");
@@ -9039,3 +9092,48 @@ section {
   border-color: #7da7d9; }
   .module.skyblue .module-extended h4 {
     color: #7da7d9; }
+
+ul.bulleted {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px; }
+  ul.bulleted li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 30px;
+    margin-bottom: 20px; }
+    ul.bulleted li:before {
+      position: absolute;
+      left: 0px;
+      top: 4px;
+      content: url("img/bullet.png"); }
+
+.faq-section h2 {
+  font-size: 100px;
+  text-align: center; }
+
+.faq-section .faq-inner {
+  padding: 55px 83px 110px; }
+
+.faq-section ul {
+  padding-right: 30px;
+  margin: 0px;
+  padding-left: 45px;
+  padding-bottom: 60px;
+  list-style-type: none; }
+  .faq-section ul li {
+    margin-bottom: 20px; }
+    .faq-section ul li > span {
+      cursor: pointer;
+      font-style: italic;
+      font-weight: bold; }
+      .faq-section ul li > span:after {
+        content: url("img/accordion-collapsed.png");
+        display: inline-block;
+        margin-left: 8px;
+        position: relative;
+        top: 3px; }
+    .faq-section ul li.open > span:after {
+      content: url("img/accordion-expanded.png"); }
+    .faq-section ul li p {
+      padding: 16px 0px 0px 20px; }

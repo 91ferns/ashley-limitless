@@ -72,6 +72,10 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
   font-family: 'felt_thatregular';
 }
 
+%default-font {
+  font-family: 'Lato', arial, helvetica, sans-serif;
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -314,6 +318,40 @@ $default-font: 20px;
 
 }
 
+.box-section.zebra {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-image: url('img/bg-heringbone-medium.png');
+  background-size: contain;
+  background-position: center;
+  .box-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .box .box-inner {
+    border: 0px;
+    h2 {
+      width: 96%;
+      color: black;
+      @extend %default-font;
+      font-size: 45px;
+      big {
+        font-size: 70px;
+      }
+    }
+
+    p {
+      max-width: 90%;
+      margin-left: 5%;
+      text-align: center;
+    }
+  }
+  .box {
+    background: transparent;
+    border-color: $brand-primary;
+  }
+}
+
 .thumbnail {
   border: 0px;
   padding: 0px;
@@ -351,6 +389,8 @@ h4 {
 
 .testimonial-section {
   background-image: url('img/bg-feathers.png');
+  background-position: center;
+  background-size: cover;
   .testimonial-inner {
     padding: 25px 90px;
   }
@@ -465,6 +505,45 @@ h4 {
   .content {
     padding-left: 40%;
     padding-right: 10%;
+  }
+
+  &.sitting {
+    color: white;
+    background-image: url('img/ashley-sitting.png');
+    background-position: left 30px;
+    background-repeat: no-repeat;
+
+    h2 {
+      line-height: 66px;
+      font-size: 60px;
+      margin-bottom: 45px;
+    }
+
+    a {
+      color: white;
+    }
+
+    p {
+      margin-bottom: 26px;
+      font-weight: 300;
+    }
+
+    p.lead {
+      font-size: 30px;
+      margin-bottom: 35px;
+    }
+
+    .content {
+      padding-left: 35%;
+    }
+
+    .no-bg {
+      padding-left: 5%;
+    }
+
+    .container {
+      background-image: none;
+    }
   }
 }
 
@@ -751,5 +830,66 @@ section {
 
   &.skyblue {
     @include module(#7da7d9);
+  }
+}
+
+ul.bulleted {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    &:before {
+      position: absolute;
+      left: 0px;
+      top: 4px;
+      content: url('img/bullet.png');
+    }
+  }
+}
+
+.faq-section {
+  h2 {
+    font-size: 100px;
+    @extend .ashley;
+    @extend %felthat;
+    text-align: center;
+  }
+
+  .faq-inner {
+    padding: 55px 83px 110px;
+  }
+
+  ul {
+    padding-right: 30px;
+    margin: 0px;
+    padding-left: 45px;
+    padding-bottom: 60px;
+    list-style-type: none;
+
+    li {
+      > span {
+        cursor: pointer;
+        font-style: italic;
+        font-weight: bold;
+        &:after {
+          content: url('img/accordion-collapsed.png');
+          display: inline-block;
+          margin-left: 8px;
+          position: relative;
+          top: 3px;
+        }
+      }
+      &.open > span:after {
+        content: url('img/accordion-expanded.png');
+      }
+      p {
+        padding: 16px 0px 0px 20px;
+      }
+      margin-bottom: 20px;
+    }
   }
 }
