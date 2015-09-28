@@ -408,3 +408,97 @@
 <section class="content-product-announcement">
   logo-limitless-career-lab.png
 </section>
+
+<section class="content-modules">
+  <div class="container">
+
+    <div class="modules-pad">
+      <?php $colors = array('blue', 'black', 'pink', 'orange', 'gray', 'seagreen', 'purple', 'skyblue'); ?>
+
+      <?php foreach ($colors as $color): ?>
+      <div class="module <?php echo $color; ?>">
+
+        <div class="module-header">
+          <div class="module-header-label">
+            Module 1: Clarity
+          </div>
+        </div>
+
+        <div class="module-content">
+
+          <div class="buttons">
+            <a class="button module-button explore-button" href="#">
+              EXPLORE MODULE 1
+            </a>
+
+            <a class="button module-button button-expand" href="#">
+              <img src="<?php ashley_limitless_image('module-arrow.png') ?>" alt="Expand">
+            </a>
+          </div>
+
+          <div class="description">
+            Speak about yourself in a way that inspires other people to help you in your job hunt and career. One of the biggest mistakes that job seekers make is in forgetting to create a powerful answer to the prompt "tell me about yourself"-- also known as their elevator pitch. This module is here for you to learn exactly how to answer this common question in a way that wows your interviewer and inspires people to help you with your job hunt while you're out networking.
+          </div>
+
+        </div> <!-- /.module-content -->
+
+        <div class="module-extended">
+          <h3>Module #1: Clarity</h3>
+          <h4>FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS</h4>
+
+          <div class="clearfix columns">
+            <figure class="image">
+              <img src="<?php ashley_limitless_image('module-image-1.png'); ?>">
+            </figure>
+            <div class="text">
+              <ul>
+                <li>Get an answer to the question, “Am I even on the right track?”</li>
+                <li>Become more aligned with your true purpose. </li>
+                <li>Get more clear on your gifts – and how to translate them into the right jobs for you (this will save you endless hours of applying for the wrong jobs!). </li>
+                <li>Shift your perspective and cultivate a success mindset </li>
+                <li>Make a plan for where you’re going in your life/career, and HOW to get there.</li>
+              </ul>
+
+              <p>+ TUTORIAL #1: How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
+
+            </div> <!-- /.text -->
+          </div>
+        </div>
+
+      </div> <!-- /.modules -->
+      <?php endforeach; ?>
+
+    </div> <!-- /.modules-pad -->
+
+  </div>
+</section>
+
+<section class="testimonial-section">
+  <div class="container">
+    <div class="testimonial-inner">
+
+      <div class="box clearfix">
+
+        <img src="<?php ashley_limitless_image('testimonial-rory.png'); ?>" class="alignright" alt="Sign Up">
+
+        <p>Before working with Ashley in the Limitless Career Lab, I was unsatisfied in the retail jobs I worked, but unable to move out of these fields. I was supporting my filmmaking work out of pocket, and not able to get a job in my field despite having a BFA in film and a certificate in Digital Filmmaking. Most of all, I was your typical disenfranchised millennial.</p>
+
+        <p>After joining Ashley’s program, I was employed in the entertainment industry working regular office hours- two things I previously thought were incompatible! I also become very aware of an incredible number of opportunities in my field- truly a mindset of abundance, and I no longer feel trapped in my current role. I am now using my education, my talents, and working a job that I can honestly say I love.</p>
+
+        <p>I'm so glad I did this because Ashley's tips have stayed with me far beyond the course, and have helped me not only in securing employment, but in my personal artistic endeavors as well.  Her networking and job-hunting tips are timeless, but the course itself was highly tailored to my individual needs at the time.  She helped me get past a huge professional block, and my career has soared since taking the course.  I can't recommend her enough!</p>
+
+        <div class="author">
+  				<p>
+            <big class="felthat">Rory Gory</big><br>
+          Los Angeles, CA</p>
+        </div>
+
+      </div>
+      <p>&nbsp;</p>
+      <center>
+        <a href="btn-center"><img src="<?php ashley_limitless_image('button-sign-up.png'); ?>" alt="Sign Up"></a>
+      </center>
+
+    </div>
+  </div> <!-- /.container -->
+</section>

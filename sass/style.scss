@@ -588,3 +588,168 @@ section {
     }
   }
 }
+
+.module {
+  margin-bottom: 88px;
+  .module-header {
+    height: 68px;
+    border-bottom-width: 32px;
+    border-bottom-style: solid;
+
+    position: relative;
+
+    .module-header-label {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding-left: 27px;
+      padding-right: 27px;
+      text-transform: uppercase;
+      font-weight: 200;
+      color: white;
+      border-radius: 15px 15px 0 0;
+      height: 68px;
+      padding-top: 12px;
+    }
+  }
+
+  .module-button {
+    color: white;
+  }
+
+  .module-content {
+    background-color: #ebebeb;
+    padding: 20px;
+
+    .buttons {
+      float: right;
+      width: 37%;
+      padding-left: 50px;
+      text-align: right;
+    }
+
+    .button {
+      display: inline-block;
+      border-radius: 3px;
+      padding: 4px;
+      line-height: 32px;
+      font-size: 15px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .explore-button {
+      padding-left: 13px;
+      padding-right: 13px;
+      margin-right: 20px;
+    }
+
+    .description {
+      font-size: 15px;
+      line-height: 17px;
+      width: 62.4%;
+    }
+
+  }
+
+  .module-extended {
+    padding: 20px 40px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+
+    h3, h4 {
+      text-align: center;
+      margin: 0px;
+    }
+
+    h3 {
+      @extend %felthat;
+      font-size: 50px;
+    }
+
+    h4 {
+      font-size: $default-font;
+    }
+    .columns {
+      padding: 22px 0 0;
+    }
+
+    figure {
+      width: 40%;
+      float: left;
+    }
+
+    .text {
+      width: 55%;
+      margin-left: 5%;
+      float: left;
+      font-size: 15px;
+      ul {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 18px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.modules-pad {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@mixin module($color) {
+  .module-header {
+    border-color: $color;
+    .module-header-label {
+      background-color: $color;
+    }
+  }
+  .module-button {
+    background-color: $color;
+  }
+
+  .module-extended {
+    border-color: $color;
+    h4 {
+      color: $color;
+    }
+  }
+}
+
+
+.module {
+  &.blue {
+    @include module($brand-primary);
+  }
+
+  &.black {
+    @include module(#000000);
+  }
+
+  &.pink {
+    @include module(#f49ac1);
+  }
+
+  &.orange {
+    @include module(#f26c4f);
+  }
+
+  &.gray {
+    @include module(#898989);
+  }
+
+  &.seagreen {
+    @include module(#6bb0b1);
+  }
+
+  &.purple {
+    @include module(#bd8cbf);
+  }
+
+  &.skyblue {
+    @include module(#7da7d9);
+  }
+}
