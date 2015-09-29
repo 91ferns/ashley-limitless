@@ -406,21 +406,60 @@
 </section>
 
 <section class="content-product-announcement">
-  logo-limitless-career-lab.png
+  <div class="container">
+    <div class="center-header">
+      <h2><img src="<?php ashley_limitless_image('logo-limitless-career-lab.png'); ?>" alt="The Limitless Career lab"></h2>
+      <h3>HERE’S WHAT’S INCLUDED</h3>
+    </div> <!-- .center-header -->
+
+
+    <div class="inner-announcement">
+      <ul class="bulleted">
+        <li>8 Video Modules Released Weekly (8 Hours of Instruction)</li>
+        <li>3 Tutorials </li>
+        <li>4 LIVE Group Coaching Calls</li>
+        <li>Comprehensive Workbook With Templates &amp; Exercises</li>
+        <li>Access to a Private Facebook Group</li>
+        <li>One Year Access To Modules</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
 <section class="content-modules">
   <div class="container">
 
+    <p>&nbsp;</p>
+
+    <p class="text-center">
+      <img src="<?php ashley_limitless_image('labels-click-modules.png'); ?>" alt="Click the folders below to learn about each training.">
+    </p>
+
+    <p>&nbsp;</p>
+
     <div class="modules-pad">
       <?php $colors = array('blue', 'black', 'pink', 'orange', 'gray', 'seagreen', 'purple', 'skyblue'); ?>
+      <?php $text = array(
+        '<strong><em>Find your purpose &amp; learn which jobs are an exact fit for you.</em></strong> The cornerstone of any successful job hunt is in learning which exact jobs align with your skills and talents. While you may have an idea on what interests you, this module is here to help you hone in on the best options for you, and awaken you to all the sorts of career paths you may not have considered.',
+        '<strong><em>Speak about yourself in a way that inspires other people to help you in your job hunt and career.</em></strong> One of the biggest mistakes that job seekers make is in forgetting to create a powerful answer to the prompt "tell me about yourself"-- also known as their elevator pitch. This module is here for you to learn exactly how to answer this common question in a way that wows your interviewer and inspires people to help you with your job hunt while you\'re out networking.',
+        '<strong><em>Learn how to translate your experiences into a resume that stands out in the pile.</em></strong> The average amount of time a recruiter spends on your resume is six seconds, and for that reason, your resume needs to WOW them. This module will teach you exactly how to write a resume like a pro, and includes templates for you to use and reuse!',
+        '<strong><em>Learn how to write a cover letter that inspires interviewers.</em></strong> While most hiring managers admit that they don\'t read cover letters, the tough reality is that they DO read them when they\'re wavering on you as a candidate. For  this reason, you\'ll learn how to write a powerful cover letter, and you\'ll be supported with templates to use and reuse in the process.',
+        '<strong><em>Get clear on who you need to reach out to.</em></strong> Throughout this process, you\'ll learn who you need to network with and HOW to find them. This means learning how to find the right email addresses, and learning how to leverage tools like Linkedin to find hiring managers. You\'ll also learn how to leverage your college alumni network even years after graduating.',
+        '<strong><em>Learn how to write the perfect emails to people who can hire you.</em></strong> This module is going to teach you exactly how to get in front of people who can hire you-- people you don\'t know-- and how you can communicate with them, both in person and over email.',
+        '<strong><em>Once the job interviews start flowing, you\'ll need to learn how to be memorable for the interview.</em></strong> This means having polished answers to some of the hardest interview questions, and knowing exactly what recruiters want to hear.',
+        '<strong><em>Get a raise before you sign the dotted line.</em></strong> One of the biggest mistakesjob seekers make is in entering interview conversations without a plan of how to talk about money. In this module, you\'ll learn how clients are getting a 20% pay increase in their negotiations. You\'ll get access to templates and scripts you can use to take the guesswork out of salary negotiation.'
 
-      <?php foreach ($colors as $color): ?>
-      <div class="module <?php echo $color; ?>">
+      );
+
+      $labels = array('Clarity', 'ELEVATOR PITCH', 'RESUME', 'COVER LETTER', 'TARGETED NETWORKING', 'COLD NETWORKING', 'MASTER THE INTERVIEW', 'SALARY NEGOTIATION'); ?>
+
+      <?php foreach ($colors as $k => $color): ?>
+      <div class="module <?php echo $color; ?> <?php echo $k == 0 ? 'active' : '' ?>">
 
         <div class="module-header">
           <div class="module-header-label">
-            Module 1: Clarity
+            Module <?php echo $k + 1; ?>: <?php echo $labels[$k]; ?>
           </div>
         </div>
 
@@ -428,7 +467,7 @@
 
           <div class="buttons">
             <a class="button module-button explore-button" href="#">
-              EXPLORE MODULE 1
+              EXPLORE MODULE <?php echo $k + 1; ?>
             </a>
 
             <a class="button module-button button-expand" href="#">
@@ -437,13 +476,13 @@
           </div>
 
           <div class="description">
-            Speak about yourself in a way that inspires other people to help you in your job hunt and career. One of the biggest mistakes that job seekers make is in forgetting to create a powerful answer to the prompt "tell me about yourself"-- also known as their elevator pitch. This module is here for you to learn exactly how to answer this common question in a way that wows your interviewer and inspires people to help you with your job hunt while you're out networking.
+            <?php echo $text[$k]; ?>
           </div>
 
         </div> <!-- /.module-content -->
 
         <div class="module-extended">
-          <h3>Module #1: Clarity</h3>
+          <h3>Module #<?php echo $k + 1; ?>: <?php echo $labels[$k]; ?></h3>
           <h4>FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS</h4>
 
           <div class="clearfix columns">
@@ -459,7 +498,7 @@
                 <li>Make a plan for where you’re going in your life/career, and HOW to get there.</li>
               </ul>
 
-              <p>+ TUTORIAL #1: How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
+              <p>+ TUTORIAL #<?php echo $k + 1; ?>: How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
 
             </div> <!-- /.text -->
           </div>
@@ -543,6 +582,44 @@
 
 </section>
 
+<section class="content-product-announcement triangles">
+  <div class="container">
+    <div class="center-header">
+      <h2><img src="<?php ashley_limitless_image('logo-limitless-career-lab.png'); ?>" alt="The Limitless Career lab"></h2>
+      <h3>HERE’S WHAT’S INCLUDED</h3>
+    </div> <!-- .center-header -->
+
+
+    <div class="inner-announcement">
+      <ul class="bulleted">
+        <li>8 Video Modules Released Weekly (8 Hours of Instruction)</li>
+        <li>3 Tutorials </li>
+        <li>4 LIVE Group Coaching Calls</li>
+        <li>Comprehensive Workbook With Templates &amp; Exercises</li>
+        <li>Access to a Private Facebook Group</li>
+        <li>One Year Access To Modules</li>
+      </ul>
+    </div>
+
+    <div class="announcement-buttons">
+      <p>
+        <a class="button" href="#">
+          <img src="<?php ashley_limitless_image('button-pay-in-full.png'); ?>" alt="Pay in full">
+        </a>
+        <a class="button" href="#">
+          <img src="<?php ashley_limitless_image('button-pay-monthly.png'); ?>" alt="Pay in full">
+        </a>
+      </p>
+
+      <p>
+        <a class="button" href="#">
+          <img src="<?php ashley_limitless_image('button-sign-up.png'); ?>" alt="Sign up">
+        </a>
+      </p>
+    </div>
+
+  </div>
+</section>
 
 <section class="box-section zebra">
   <div class="container">

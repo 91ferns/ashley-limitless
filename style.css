@@ -8958,6 +8958,7 @@ section {
       line-height: 17px;
       width: 62.4%; }
   .module .module-extended {
+    display: none;
     padding: 20px 40px;
     background-color: white;
     border-style: solid;
@@ -8984,6 +8985,8 @@ section {
         padding: 0px;
         padding-left: 18px;
         margin-bottom: 20px; }
+  .module.active .module-extended {
+    display: block; }
 
 .modules-pad {
   padding-left: 80px;
@@ -9137,3 +9140,29 @@ ul.bulleted {
       content: url("img/accordion-expanded.png"); }
     .faq-section ul li p {
       padding: 16px 0px 0px 20px; }
+
+.content-product-announcement {
+  background-image: url("img/bg-diamonds.png");
+  padding: 45px 0; }
+  .content-product-announcement.triangles {
+    background-image: url("img/bg-triangles.png"); }
+  .content-product-announcement h2, .content-product-announcement h3 {
+    text-align: center; }
+  .content-product-announcement h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: 200; }
+  .content-product-announcement .inner-announcement {
+    padding-left: 130px;
+    padding-right: 130px; }
+  .content-product-announcement ul > li {
+    margin-bottom: 7px !important; }
+  .content-product-announcement .announcement-buttons {
+    padding-top: 65px;
+    text-align: center; }
+    .content-product-announcement .announcement-buttons p {
+      padding-bottom: 25px; }
+    .content-product-announcement .announcement-buttons .button {
+      margin: 0px 15px; }
