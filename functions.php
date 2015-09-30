@@ -130,7 +130,7 @@ function ashley_limitless_scripts() {
 	wp_enqueue_script( 'modernizr', get_stylesheet_directory_uri() . '/bower_components/modernizr/modernizr.js', array(), $scripts_version, false );
 	wp_enqueue_script( 'respond', get_stylesheet_directory_uri() . '/bower_components/respond/dest/respond.min.js', array(), $scripts_version, false );
   wp_enqueue_script( 'jquery-infinite-scroll', get_stylesheet_directory_uri() . '/bower_components/jquery-infinite-scroll/jquery.infinitescroll.js', array('jquery'), $scripts_version, true );
-	wp_enqueue_script( 'ashley_limitless-script', get_stylesheet_directory_uri() . '/js/main.min.js', array('bootstrap'), $scripts_version, true );
+	//wp_enqueue_script( 'ashley_limitless-script', get_stylesheet_directory_uri() . '/js/main.min.js', array('bootstrap'), $scripts_version, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
