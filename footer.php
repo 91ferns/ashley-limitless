@@ -10,6 +10,18 @@
  */
 
 ?>
+	<footer id="colophon">
+
+				<div class="container">
+					<p class="footer-links">
+						Copyright © 2015 Ashley Stahl International Inc.
+						| <a href="http://www.ashleystahl.com/privacy-policy">Privacy Policy </a>
+						| <a href="http://www.ashleystahl.com/terms-and-conditions">Terms &amp; Conditions</a>
+					</p>
+
+				</div>
+
+	</footer>
 
 	</div><!-- #content -->
 

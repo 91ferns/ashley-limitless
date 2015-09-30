@@ -9166,3 +9166,18 @@ ul.bulleted {
       padding-bottom: 25px; }
     .content-product-announcement .announcement-buttons .button {
       margin: 0px 15px; }
+
+.accordion > li p {
+  display: none;
+  font-weight: 200; }
+
+.accordion > li.open p {
+  display: block; }
+
+.noselect span {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

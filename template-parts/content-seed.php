@@ -466,11 +466,11 @@
         <div class="module-content">
 
           <div class="buttons">
-            <a class="button module-button explore-button" href="#">
+            <a class="button module-button explore-button" href="javascript:void(0);">
               EXPLORE MODULE <?php echo $k + 1; ?>
             </a>
 
-            <a class="button module-button button-expand" href="#">
+            <a class="button module-button button-expand" href="javascript:void(0);">
               <img src="<?php ashley_limitless_image('module-arrow.png') ?>" alt="Expand">
             </a>
           </div>
@@ -649,21 +649,25 @@
       <h2>Frequently Asked Questions</h2>
 
       <ul class="accordion">
-        <li class="open">
+        <li class="open noselect">
           <span>When does the program begin?</span>
           <p>As soon as you sign up! Limitless Career Lab is a home study course, designed in such a way that you can join at any time! However, be sure to take advantage of our fast-action bonuses (available for a limited time only). Click here to get started. </p>
 
         </li>
-        <li><span>What does it look like to go through this program on a weekly basis? </span></li>
-        <li><span>Do I need to supplement what I learn in this program with anything else?</span></li>
-        <li><span>How do the Q&amp;A calls work?</span></li>
-        <li><span>Do you offer payment plans?</span></li>
-        <li><span>Can I keep in touch with you (and other participants) after the program ends?</span></li>
-        <li><span>What if I don’t like the product?</span></li>
-        <li><span>How do I know if this the right time for me to take the course?</span></li>
-        <li><span>Do I need to invest in the full course, or can I just purchase certain modules?</span></li>
-        <li><span>Should I be hiring a private coach instead of investing in this course?</span></li>
-        <li><span>I'm not a millennial. Is there a reason I should not take this course?</span></li>
+        <li class="noselect">
+          <span>What does it look like to go through this program on a weekly basis? </span>
+          <p>As soon as you sign up! Limitless Career Lab is a home study course, designed in such a way that you can join at any time! However, be sure to take advantage of our fast-action bonuses (available for a limited time only). Click here to get started. </p>
+
+        </li>
+        <li class="noselect"><span>Do I need to supplement what I learn in this program with anything else?</span></li>
+        <li class="noselect"><span>How do the Q&amp;A calls work?</span></li>
+        <li class="noselect"><span>Do you offer payment plans?</span></li>
+        <li class="noselect"><span>Can I keep in touch with you (and other participants) after the program ends?</span></li>
+        <li class="noselect"><span>What if I don’t like the product?</span></li>
+        <li class="noselect"><span>How do I know if this the right time for me to take the course?</span></li>
+        <li class="noselect"><span>Do I need to invest in the full course, or can I just purchase certain modules?</span></li>
+        <li class="noselect"><span>Should I be hiring a private coach instead of investing in this course?</span></li>
+        <li class="noselect"><span>I'm not a millennial. Is there a reason I should not take this course?</span></li>
       </ul>
 
       <center>

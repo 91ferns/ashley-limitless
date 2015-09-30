@@ -45,7 +45,7 @@ gulp.task('styles', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./'))
-    .pipe(browserSync.stream());
+//    .pipe(browserSync.stream());
 });
 
 
@@ -74,6 +74,14 @@ gulp.task('watch', function() {
   gulp.watch(paths.styles, ['styles']);
   gulp.watch(paths.scripts, ['reload-scripts']);
   gulp.watch(paths.php).on('change', browserSync.reload);
+});
+
+gulp.task('watch:styles', function() {
+  gulp.watch(paths.styles, ['styles']);
+});
+
+gulp.task('watch:scripts', function() {
+  gulp.watch(paths.scripts, ['reload-scripts']);
 });
 
 // The default task (called when you run `gulp` from cli)
