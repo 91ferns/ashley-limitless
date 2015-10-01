@@ -657,17 +657,54 @@
         <li class="noselect">
           <span>What does it look like to go through this program on a weekly basis? </span>
           <p>As soon as you sign up! Limitless Career Lab is a home study course, designed in such a way that you can join at any time! However, be sure to take advantage of our fast-action bonuses (available for a limited time only). Click here to get started. </p>
-
         </li>
-        <li class="noselect"><span>Do I need to supplement what I learn in this program with anything else?</span></li>
-        <li class="noselect"><span>How do the Q&amp;A calls work?</span></li>
-        <li class="noselect"><span>Do you offer payment plans?</span></li>
-        <li class="noselect"><span>Can I keep in touch with you (and other participants) after the program ends?</span></li>
-        <li class="noselect"><span>What if I don’t like the product?</span></li>
-        <li class="noselect"><span>How do I know if this the right time for me to take the course?</span></li>
-        <li class="noselect"><span>Do I need to invest in the full course, or can I just purchase certain modules?</span></li>
-        <li class="noselect"><span>Should I be hiring a private coach instead of investing in this course?</span></li>
-        <li class="noselect"><span>I'm not a millennial. Is there a reason I should not take this course?</span></li>
+
+        <li class="noselect">
+          <span>Do I need to supplement what I learn in this program with anything else?</span>
+          <p>Limitless Career Lab is designed to be an “all-in-one” program to help you land multiple job offers. It includes detailed training modules, exercises and live Q&amp;A calls to ensure that you have all the clarity and tools you need to master the job hunt.</p>
+        </li>
+
+        <li class="noselect">
+          <span>How do the Q&amp;A calls work?</span>
+          <p>Once you sign up, the team will be emailing you specific information with the times to show up for the LIVE Q&amp;A calls. You’ll receive the times and dates via email, along with a dial-in number and access code. Once you dial into the call, Ashley will be on the line taking questions. She will direct all callers on how to ask questions, or digitally “raise your hand.” Once the hour call is complete, you will receive the recorded audio within 24 hours, which is yours to keep. She posts the recording in the private client Facebook group—which is where you can access it, or post your questions if you cannot make it onto the live call (she checks the group for questions prior to the call!).</p>
+        </li>
+
+        <li class="noselect">
+          <span>Do you offer payment plans?</span>
+          <p>Yes! We want the Limitless Career Lab to be available to anyone who is ready to stand in their career and job hunting power, and for this reason, we are happy to offer payment plans! For the basic access level (8 modules, 3 tutorials, workbook, 4 LIVE calls), it’s three automated monthly payments of $567.</p>
+        </li>
+
+        <li class="noselect">
+          <span>Can I keep in touch with you (and other participants) after the program ends?</span>
+          <p>Absolutely! I encourage you to stay in touch with other participants that you connect with during your program. You can keep us all updated on your career and what is new with you in the private Facebook group (which you will have access to for one year from your purchase date). Once you register for the program, you’ll get a link via email to the private networking group on Facebook, where you can request to add yourself.</p>
+          <p>Please note that Limitless Career Lab does not include email support from Ashley at this time.</p>
+        </li>
+
+        <li class="noselect">
+          <span>What if I don’t like the product?</span>
+          <p>No problem! I offer a 30-day money back guarantee on Limitless Career Lab. If you do the work and don’t see results, you are welcome to request a refund within 30 days of your purchase – at which time we will issue a full refund and cancel your login to the membership site.</p>
+          <p>The only bummer is that modules 5+6, where you learn the golden strategies to network your way into the jobs you want, take place after the 30-day mark.</p>
+        </li>
+
+        <li class="noselect">
+          <span>How do I know if this the right time for me to take the course?</span>
+          <p>Most people enroll in this course when they're focused on getting job offers immediately. They've often tried everything and are using this course as a deeper commitment to bringing the job offers in! Nonetheless, I believe the best time to job hunt is when you do not need a job (the second best time is when you DO!), and for that reason, I highly recommend this program whether you are hoping to land job offers now, or within the next 12 months.</p>
+        </li>
+
+        <li class="noselect">
+          <span>Do I need to invest in the full course, or can I just purchase certain modules?</span>
+          <p>The course layers on itself, with each module preparing you specifically for the next... For that reason, it would not serve you to jump into one of the modules without doing the work in the preceding ones. The course is comprehensive and takes the guesswork out of the job hunt. You must follow each step to move effectively into the next!</p>
+        </li>
+
+        <li class="noselect">
+          <span>Should I be hiring a private coach instead of investing in this course?</span>
+          <p>It depends. This course is perfect for someone who has a decent grasp on their interests and is simply looking to land multiple job offers through job hunting methods that work. The people who benefit from this course have a decent grasp on what interests them, and they use this course to bring results in the form of interviews and job offers. On the other hand, if you're grappling with serious confidence issues, or you're feeling completely lost on what sort of career interests you, a private coach would be a better starting point. The investment in private coaching ranges from $4,000+, so I highly recommend you shop around. This serious fee is what inspired me to create this online program as a more affordable and digestible method to get results! Plus, I coach clients on the Q&amp;A calls for everyone to learn from!</p>
+        </li>
+
+        <li class="noselect">
+          <span>I'm not a millennial. Is there a reason I should not take this course?</span>
+          <p>This course is for anyone who really feels that their job hunting skills need some work. There are tons of Gen X'ers and Baby Boomers who have benefitted, and I totally welcome it with open arms! If you're applying for jobs and feeling like the internet is a cyber black hole, and you're looking for job hunting strategies that work, you will grow from this course no matter what your age is!</p>
+        </li>
       </ul>
 
       <center>
