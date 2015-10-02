@@ -15,7 +15,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 </head>
 
@@ -51,8 +51,10 @@
 					</div> <!-- /.description -->
 
 					<div class="video-subcontainer">
-						<figure>
-							<img src="<?php ashley_limitless_image('video.png'); ?>">
+						<figure style="cursor: pointer;">
+							<div id="ashley-video">
+								<img src="<?php ashley_limitless_image('video.png'); ?>">
+							</div>
 						</figure>
 					</div> <!-- /.video-container -->
 
