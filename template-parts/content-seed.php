@@ -640,7 +640,9 @@
         </li>
         <li class="noselect">
           <span>What does it look like to go through this program on a weekly basis? </span>
-          <p>As soon as you sign up! Limitless Career Lab is a home study course, designed in such a way that you can join at any time! However, be sure to take advantage of our fast-action bonuses (available for a limited time only). Click here to get started. </p>
+          <p>When you sign up, you’ll get an email (within 30 minutes- hang tight!) with instant access to your login information– which you can use to access Module 1 in our password-protected membership site. You’ll also receive information about how to dial in for your 4 LIVE group coaching calls with me! Be sure to join the private client Facebook group, which is where I post ALL call recordings for you to tune into. The remaining seven Modules will become available in your membership site on a weekly basis.  By the end of the course, you’ll have access to all 8 modules, 3 tutorials and the workbook for one year. You’ll also have an audio recording of the LIVE group coaching calls, whether you dialed in or not.</p>
+
+          <p>While we encourage you to complete the program within the 8 weeks, you may choose to take additional time to work through the materials if you wish. (You have unlimited access to the membership site for one year from your purchase date.) </p>
         </li>
 
         <li class="noselect">
