@@ -129,7 +129,7 @@ $icon-font-path: 'bower_components/bootstrap-sass-official/assets/fonts/';
 @import "media/media";
 
 #page {
-  padding-top: 76px;
+  // padding-top: 76px;
 }
 
 .ashley {
@@ -219,9 +219,14 @@ big.ashley {
 
   ul > li {
 
+    &.ashley > a {
+      color: $brand-primary !important;
+    }
+
     > a {
       background: transparent !important;
       color: white;
+      padding: 10px 30px;
       text-transform: uppercase;
       &:hover {
         color: $brand-primary;
@@ -971,6 +976,7 @@ ul.bulleted {
   padding-top: 15px;
 
   blockquote {
+    color: $brand-primary;
     font-size: 17px;
     font-weight: 400;
     font-style: italic;
@@ -986,6 +992,7 @@ ul.bulleted {
   }
 
   .author {
+    color: $brand-primary;
     font-size: 13px;
     text-align: right;
     margin-top: 21px;

@@ -5841,9 +5841,6 @@ object {
 .gallery-caption {
   display: block; }
 
-#page {
-  padding-top: 76px; }
-
 .ashley, .faq-section h2 {
   color: #16aeb0 !important; }
 
@@ -5904,9 +5901,12 @@ big.ashley {
 #site-navigation {
   background-color: black;
   color: white; }
+  #site-navigation ul > li.ashley > a {
+    color: #16aeb0 !important; }
   #site-navigation ul > li > a {
     background: transparent !important;
     color: white;
+    padding: 10px 30px;
     text-transform: uppercase; }
     #site-navigation ul > li > a:hover {
       color: #16aeb0; }
@@ -6492,6 +6492,7 @@ ul.bulleted {
 .extended-testimonial {
   padding-top: 15px; }
   .extended-testimonial blockquote {
+    color: #16aeb0;
     font-size: 17px;
     font-weight: 400;
     font-style: italic;
@@ -6503,6 +6504,7 @@ ul.bulleted {
     margin-left: 19px;
     border-radius: 50%; }
   .extended-testimonial .author {
+    color: #16aeb0;
     font-size: 13px;
     text-align: right;
     margin-top: 21px;
