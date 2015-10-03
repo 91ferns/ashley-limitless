@@ -449,10 +449,9 @@
         '<strong><em>Learn how to write the perfect emails to people who can hire you.</em></strong> This module is going to teach you exactly how to get in front of people who can hire you-- people you don\'t know-- and how you can communicate with them, both in person and over email.',
         '<strong><em>Once the job interviews start flowing, you\'ll need to learn how to be memorable for the interview.</em></strong> This means having polished answers to some of the hardest interview questions, and knowing exactly what recruiters want to hear.',
         '<strong><em>Get a raise before you sign the dotted line.</em></strong> One of the biggest mistakesjob seekers make is in entering interview conversations without a plan of how to talk about money. In this module, you\'ll learn how clients are getting a 20% pay increase in their negotiations. You\'ll get access to templates and scripts you can use to take the guesswork out of salary negotiation.'
-
       );
-
-      $labels = array('Clarity', 'ELEVATOR PITCH', 'RESUME', 'COVER LETTER', 'TARGETED NETWORKING', 'COLD NETWORKING', 'MASTER THE INTERVIEW', 'SALARY NEGOTIATION'); ?>
+      $sublabels = array('FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS', 'SPEAK ABOUT YOURSELF IN A WAY THAT INSPIRES OTHERS');
+      $labels = array('CLARITY', 'ELEVATOR PITCH', 'RESUME', 'COVER LETTER', 'TARGETED NETWORKING', 'COLD NETWORKING', 'MASTER THE INTERVIEW', 'SALARY NEGOTIATION'); ?>
 
       <?php foreach ($colors as $k => $color): ?>
       <div class="module <?php echo $color; ?> <?php echo $k == 0 ? 'active' : '' ?>">
@@ -483,25 +482,10 @@
 
         <div class="module-extended">
           <h3>Module #<?php echo $k + 1; ?>: <?php echo $labels[$k]; ?></h3>
-          <h4>FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS</h4>
+          <h4><?php echo $sublabels[$k]; ?></h4>
 
-          <div class="clearfix columns">
-            <figure class="image">
-              <img src="<?php ashley_limitless_image('module-image-1.png'); ?>">
-            </figure>
-            <div class="text">
-              <ul>
-                <li>Get an answer to the question, “Am I even on the right track?”</li>
-                <li>Become more aligned with your true purpose. </li>
-                <li>Get more clear on your gifts – and how to translate them into the right jobs for you (this will save you endless hours of applying for the wrong jobs!). </li>
-                <li>Shift your perspective and cultivate a success mindset </li>
-                <li>Make a plan for where you’re going in your life/career, and HOW to get there.</li>
-              </ul>
+          <?php ashley_limitless_module($k); ?>
 
-              <p>+ TUTORIAL #<?php echo $k + 1; ?>: How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
-
-            </div> <!-- /.text -->
-          </div>
         </div>
 
       </div> <!-- /.modules -->

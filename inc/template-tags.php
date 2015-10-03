@@ -221,6 +221,47 @@ function ashley_limitless_bloginfo() {
 	echo apply_filters('bloginfo_colors', $bloginfo);
 }
 
+function ashley_limitless_module($k) {
+	$k1 = $k + 1;
+	?>
+	<div class="clearfix columns">
+		<figure class="image">
+			<img src="<?php ashley_limitless_image("module-image-${k1}.png"); ?>">
+		</figure>
+		<div class="text">
+			<ul>
+				<?php switch ($k) {
+					case 0: ?>
+						<li>Get an answer to the question, “Am I even on the right track?”</li>
+						<li>Become more aligned with your true purpose. </li>
+						<li>Get more clear on your gifts – and how to translate them into the right jobs for you (this will save you endless hours of applying for the wrong jobs!). </li>
+						<li>Shift your perspective and cultivate a success mindset </li>
+						<li>Make a plan for where you’re going in your life/career, and HOW to get there.</li>
+					<?php break;
+					case 1: ?>
+						<li>Learn to talk about yourself when someone says, “tell me about yourself” in a way that opens really heavy doors. </li>
+						<li>Train your ear to hear an invitation for an elevator pitch…and never feel like you’ve left an opportunity on the table again. </li>
+						<li>Discover the two key questions you should ALWAYS ask in a networking conversation. </li>
+						<li>Understand how to re-frame something “negative” (i.e. a resume gap, illness, etc.) as it comes up in a networking conversation. </li>
+						<li>Learn how to address a looming doubt in the mind of your interviewer.</li>
+				<?php } ?>
+			</ul>
+
+			<?php if ($k === 0): ?>
+				<p><strong>+ TUTORIAL #<?php echo $k + 1; ?>:</strong> How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
+			<?php endif; ?>
+
+		</div> <!-- /.text -->
+	</div>
+	<?php if ($k > 0): ?>
+		"After Ashley taught me her elevator pitch formula, I went to a networking event, and tested it out. Right when I was asked 'tell me about yourself,' I used her formula to answer it, and landed a job interview on my first try! This translated into a job offer. I could not believe it."
+
+		Adam Azoff,
+		Washington, DC
+	<?php endif; ?>
+	<?php
+}
+
 /**
  * Flush out the transients used in ashley_limitless_categorized_blog.
  */
