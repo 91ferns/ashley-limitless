@@ -450,7 +450,7 @@
         '<strong><em>Once the job interviews start flowing, you\'ll need to learn how to be memorable for the interview.</em></strong> This means having polished answers to some of the hardest interview questions, and knowing exactly what recruiters want to hear.',
         '<strong><em>Get a raise before you sign the dotted line.</em></strong> One of the biggest mistakesjob seekers make is in entering interview conversations without a plan of how to talk about money. In this module, you\'ll learn how clients are getting a 20% pay increase in their negotiations. You\'ll get access to templates and scripts you can use to take the guesswork out of salary negotiation.'
       );
-      $sublabels = array('FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS', 'SPEAK ABOUT YOURSELF IN A WAY THAT INSPIRES OTHERS');
+      $sublabels = array('FIND YOUR PURPOSE + HONE IN ON YOUR OPTIONS', 'SPEAK ABOUT YOURSELF IN A WAY THAT INSPIRES OTHERS', 'TRANSLATE YOUR EXPERIENCES INTO A RESUME THAT STANDS OUT', 'WRITE A COVER LETTER THAT INSPIRES INTERVIEWERS', 'GET CLEAR ON WHO YOU NEED TO REACH OUT TO', 'WRITE THE PERFECT EMAILS TO PEOPLE WHO CAN HIRE YOU', 'LEARN HOW TO BE MEMORABLE FOR THE INTERVIEW', 'GET A RAISE BEFORE YOU SIGN THE DOTTED LINE');
       $labels = array('CLARITY', 'ELEVATOR PITCH', 'RESUME', 'COVER LETTER', 'TARGETED NETWORKING', 'COLD NETWORKING', 'MASTER THE INTERVIEW', 'SALARY NEGOTIATION'); ?>
 
       <?php foreach ($colors as $k => $color): ?>

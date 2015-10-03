@@ -244,21 +244,115 @@ function ashley_limitless_module($k) {
 						<li>Discover the two key questions you should ALWAYS ask in a networking conversation. </li>
 						<li>Understand how to re-frame something “negative” (i.e. a resume gap, illness, etc.) as it comes up in a networking conversation. </li>
 						<li>Learn how to address a looming doubt in the mind of your interviewer.</li>
+					<?php break;
+					case 2: ?>
+						<li>Discover a proven step-by-step formula to create a world-class resume that stands out from the rest.</li>
+						<li>Avoid the biggest mistakes that will send your resume straight to the trash. </li>
+						<li>Learn to write like a professional resume writer – including timeless tips and current best practices.</li>
+						<li>Position yourself as a thought leader and a high performer (in a way that translates into more $$$ in your bank account).</li>
+					<?php break;
+					case 3: ?>
+						<li>Understand the 2 types of cover letters (and which one you should include with your application). </li>
+						<li>See examples of each type of cover letter + how to structure each paragraph. </li>
+						<li>Learn common grammar, content &amp; style mistakes to avoid. </li>
+						<li>Discover what to do BEFORE you start writing, that can “make” or “break” your application. </li>
+					<?php break;
+					case 4: ?>
+						<li>Learn how to target your networking (hint: talking to family and friends of friends is only scratching the surface!).</li>
+						<li>Discover networking strategies that are PROVEN to help you get job offers.</li>
+						<li>Want to move to a new city/country? Learn how to land that “destination dream job” without even leaving home.</li>
+					<?php break;
+					case 5: ?>
+						<li>Get scripts and templates for exactly what to write in your “cold” emails to hiring managers and human resources employees. </li>
+						<li>Understand the art of effectively following up. </li>
+						<li>Learn the structure/formula for writing your own cold emails (when you come across a new type of outreach situation). </li>
+						<li>Learn how to leverage your college alumni network, even years after you’ve graduated. </li>
+						<li>Land meetings with hiring managers who offer you job opportunities on the spot. </li>
+						<li>Learn how to write an effective “thank you” email. </li>
+					<?php break;
+					case 6: ?>
+						<li>Inspire your interviewer and stand out from the crowd.</li>
+						<li>Talk about your biggest weaknesses in a way that is honest AND positions you as a strong candidate. </li>
+						<li>Answer interview questions about salary expectations with ease & grace. </li>
+						<li>Learn how to prepare as effectively as possible.</li>
+						<li>Navigate phone or Skype interviews like a pro. </li>
+						<li>Secrets on how to tactfully follow up.</li>
+					<?php break;
+					case 7: ?>
+						<li>Negotiate a 20% salary bump before you sign the dotted line.</li>
+						<li>Find out what employers are paying in your industry (this can make all the difference in the negotiation process).</li>
+						<li>Get a raise – even when the employer tells you the number “isn’t flexible.”</li>
+						<li>Learn how to make it a win-win negotiation every time. </li>
 				<?php } ?>
 			</ul>
 
 			<?php if ($k === 0): ?>
-				<p><strong>+ TUTORIAL #<?php echo $k + 1; ?>:</strong> How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
+				<p><strong>+ TUTORIAL #1:</strong> How to Leverage LinkedIn for More Clarity On The Best Jobs For You.</p>
+			<?php endif; ?>
+			<?php if ($k === 4): ?>
+				<p><strong>+ TUTORIAL #2:</strong> LinkedIn Secrets to Target Your Networking Efforts.</p>
+			<?php endif; ?>
+			<?php if ($k === 5): ?>
+				<p><strong>TUTORIAL #3:</strong> Use Twitter to Brand Yourself As A Thought Leader & Connect With Contacts Who Seem Inaccessible.. </p>
 			<?php endif; ?>
 
 		</div> <!-- /.text -->
 	</div>
-	<?php if ($k > 0): ?>
-		"After Ashley taught me her elevator pitch formula, I went to a networking event, and tested it out. Right when I was asked 'tell me about yourself,' I used her formula to answer it, and landed a job interview on my first try! This translated into a job offer. I could not believe it."
 
-		Adam Azoff,
-		Washington, DC
-	<?php endif; ?>
+	<div class="clearfix extended-testimonial">
+		<?php if ($k === 1): ?>
+			<blockquote>
+				"After Ashley taught me her elevator pitch formula, I went to a networking event, and tested it out. Right when I was asked 'tell me about yourself,' I used her formula to answer it, and landed a job interview on my first try! This translated into a job offer. I could not believe it."
+			</blockquote>
+
+			<div class="author">
+				Adam Azoff,<br>
+				Washington, DC
+			</div>
+		<?php elseif ($k === 2): ?>
+
+			<div class="pull-right">
+				<img src="<?php ashley_limitless_image("testimonial-raffi.png"); ?>">
+			</div>
+
+			<blockquote>
+				"My son graduated from college but couldn't find a job for a long time. After rewriting his resume with Ashley's system, the results came pretty quickly, and he started getting interviews left and right. I'm elated to say that he finally got a job offer last Friday, paying him more than he expected!"
+			</blockquote>
+
+			<div class="author">
+				Raffi S.<br>
+				Santa Monica, CA
+			</div>
+		<?php elseif ($k === 5): ?>
+			<div class="pull-right">
+				<img src="<?php ashley_limitless_image("testimonial-sterling.png"); ?>">
+			</div>
+
+			<blockquote>
+				"In three weeks, I used Ashley's cold networking strategies to land multiple job offers. We were even featured in the Washington Post for our success!"
+			</blockquote>
+
+			<div class="author">
+				Sterling Hardaway<br>
+				New York, NY
+			</div>
+		<?php elseif ($k === 6): ?>
+			<blockquote>"I'll admit that, going in, I was a bit skeptical about working with a career coach. Ashley saved me a whole lot of time by giving me amazing pointers regarding how to conduct myself during interviews and professional interactions. It's nearly a year since I worked with Ashley and I have a job I didn't think I would ever get."</blockquote>
+
+			<div class="author">Oren S.<br>
+			New York, NY</div>
+		<?php elseif ($k === 7): ?>
+			<div class="pull-right">
+				<img src="<?php ashley_limitless_image("testimonial-lawreses.png"); ?>">
+			</div>
+
+			<blockquote>
+				"Ashley's salary negotiation strategy helped me go from $38k to 60k in less than 8 weeks."
+			</blockquote>
+
+			<div class="author">Alexandra Makowka<br>Los Angeles, CA</div>
+		<?php endif; ?>
+	</div>
 	<?php
 }
 

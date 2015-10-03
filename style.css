@@ -6488,3 +6488,22 @@ ul.bulleted {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+.extended-testimonial {
+  padding-top: 15px; }
+  .extended-testimonial blockquote {
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    line-height: 21px;
+    padding-top: 22px;
+    border: 0px; }
+  .extended-testimonial img {
+    margin-left: 19px;
+    border-radius: 50%; }
+  .extended-testimonial .author {
+    font-size: 13px;
+    text-align: right;
+    margin-top: 21px;
+    line-height: 15px; }
