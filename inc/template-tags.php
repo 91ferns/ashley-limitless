@@ -301,6 +301,10 @@ function ashley_limitless_module($k) {
 
 	<div class="clearfix extended-testimonial">
 		<?php if ($k === 1): ?>
+			<div class="pull-right">
+				<img src="<?php ashley_limitless_image("testimonial-adam.png"); ?>" width="214" height="214">
+			</div>
+
 			<blockquote>
 				"After Ashley taught me her elevator pitch formula, I went to a networking event, and tested it out. Right when I was asked 'tell me about yourself,' I used her formula to answer it, and landed a job interview on my first try! This translated into a job offer. I could not believe it."
 			</blockquote>
@@ -310,10 +314,6 @@ function ashley_limitless_module($k) {
 				Washington, DC
 			</div>
 		<?php elseif ($k === 2): ?>
-
-			<div class="pull-right">
-				<img src="<?php ashley_limitless_image("testimonial-raffi.png"); ?>">
-			</div>
 
 			<blockquote>
 				"My son graduated from college but couldn't find a job for a long time. After rewriting his resume with Ashley's system, the results came pretty quickly, and he started getting interviews left and right. I'm elated to say that he finally got a job offer last Friday, paying him more than he expected!"
@@ -343,11 +343,11 @@ function ashley_limitless_module($k) {
 			New York, NY</div>
 		<?php elseif ($k === 7): ?>
 			<div class="pull-right">
-				<img src="<?php ashley_limitless_image("testimonial-lawreses.png"); ?>">
+				<img src="<?php ashley_limitless_image("testimonial-alex.jpg"); ?>" width="214" height="214">
 			</div>
 
 			<blockquote>
-				"Ashley's salary negotiation strategy helped me go from $38k to 60k in less than 8 weeks."
+				"Ashley's salary negotiation strategy helped me go from $38k to $60k in less than 8 weeks."
 			</blockquote>
 
 			<div class="author">Alexandra Makowka<br>Los Angeles, CA</div>

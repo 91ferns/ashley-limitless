@@ -71,7 +71,7 @@
   </div> <!-- /.container -->
 </section> <!-- /.list-section -->
 
-<section class="testimonial-section">
+<section class="testimonial-section" id="praise">
   <div class="container">
     <div class="testimonial-inner">
       <h2 class="blocktitle">
@@ -204,7 +204,7 @@
   </div> <!-- /.container -->
 </section>
 
-<section class="story-section">
+<section class="story-section" id="my-story">
 
   <div class="container">
 
@@ -405,11 +405,11 @@
 
 </section>
 
-<section class="content-product-announcement">
+<section class="content-product-announcement" id="about-lcl">
   <div class="container">
     <div class="center-header">
       <h2><img src="<?php ashley_limitless_image('logo-limitless-career-lab.png'); ?>" alt="The Limitless Career lab"></h2>
-      <h3>HERE’S WHAT’S INCLUDED</h3>
+      <h3>HERE'S WHAT’S INCLUDED</h3>
     </div> <!-- .center-header -->
 
 
@@ -566,7 +566,7 @@
 
 </section>
 
-<section class="content-product-announcement triangles">
+<section class="content-product-announcement triangles" id="whats-included">
   <div class="container">
     <div class="center-header">
       <h2><img src="<?php ashley_limitless_image('logo-limitless-career-lab.png'); ?>" alt="The Limitless Career lab"></h2>
@@ -605,7 +605,7 @@
   </div>
 </section>
 
-<section class="box-section zebra">
+<section class="box-section zebra" id="guarantee">
   <div class="container">
     <div class="box-wrapper">
 
@@ -625,7 +625,7 @@
 
 </section> <!-- /.box-section -->
 
-<section class="faq-section">
+<section class="faq-section" id="faqs">
 
   <div class="container">
 

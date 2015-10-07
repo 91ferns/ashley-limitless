@@ -16,6 +16,16 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic' rel='stylesheet' type='text/css'>
+
+<meta property="og:title"
+content="<?php bloginfo( 'name' ); ?>" />
+<meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>"/>
+<meta property="og:url"
+content="<?php echo site_url(); ?>" />
+<meta property="og:description" content="After years of perfecting my craft and helping hundreds of people make positive career changes, negotiate raises and promotions and land their dreams jobs, I have A LOT of knowledge and experience to share." />
+<meta property="og:image"
+content="<?php ashley_limitless_image('og-image.jpg'); ?>">
+
 <?php wp_head(); ?>
 </head>
 
